@@ -1,0 +1,3 @@
+[console_scripts]
+one_shot_image_saver = image_saver_pkg.one_shot_image_saver:main
+

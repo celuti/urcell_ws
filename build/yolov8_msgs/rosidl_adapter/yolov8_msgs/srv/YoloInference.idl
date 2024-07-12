@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from yolov8_msgs/srv/YoloInference.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module yolov8_msgs {
+  module srv {
+    struct YoloInference_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct YoloInference_Response {
+      sensor_msgs::msg::RegionOfInterest roi;
+
+      sensor_msgs::msg::Image segmentation;
+    };
+  };
+};

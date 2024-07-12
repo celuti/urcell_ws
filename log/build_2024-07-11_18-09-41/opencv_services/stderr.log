@@ -1,0 +1,34 @@
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:5:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kyolov8_msgs::yolo_inference[m[K’ has not been declared
+    5 | bool yoloInferenceCallback(yolov8_msgs::[01;31m[Kyolo_inference[m[K::Request &req,
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:5:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+    5 | bool yoloInferenceCallback(yolov8_msgs::yolo_inference::Request &[01;31m[Kreq[m[K,
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:6:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kyolov8_msgs::yolo_inference[m[K’ has not been declared
+    6 |                            yolov8_msgs::[01;31m[Kyolo_inference[m[K::Response &res) {
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:6:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope
+    6 |                            yolov8_msgs::yolo_inference::Response &[01;31m[Kres[m[K) {
+      |                                                                   [01;31m[K^~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:6:70:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    6 |                            yolov8_msgs::yolo_inference::Response &res[01;31m[K)[m[K {
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   18 |     [01;31m[Kros[m[K::init(argc, argv, "yolo_inference_forwarder");
+      |     [01;31m[K^~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   19 |     [01;31m[Kros[m[K::NodeHandle n;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   22 |     [01;31m[Kros[m[K::ServiceServer service = n.advertiseService("yolo_inference_forward", yoloInferenceCallback);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+   23 |     [01;31m[KROS_INFO[m[K("Yolo Inference forwarder ready.");
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ws/urcell_ws/src/opencv_services/src/opencv_extract_object_positions.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   25 |     [01;31m[Kros[m[K::spin();
+      |     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/opencv_extract_object_positions.dir/build.make:76: CMakeFiles/opencv_extract_object_positions.dir/src/opencv_extract_object_positions.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/opencv_extract_object_positions.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

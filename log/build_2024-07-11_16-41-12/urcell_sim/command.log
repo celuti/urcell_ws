@@ -1,0 +1,1 @@
+Invoking command in '/home/user/ws/urcell_ws/build/urcell_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake /home/user/ws/urcell_ws/src/urcell_sim -DCMAKE_INSTALL_PREFIX=/home/user/ws/urcell_ws/install/urcell_sim

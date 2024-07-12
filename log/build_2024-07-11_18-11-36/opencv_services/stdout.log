@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target opencv_extract_object_positions[0m
+[  9%] Built target opencv_services__rosidl_generator_c
+[ 12%] Built target opencv_services__cpp
+[ 15%] [32mBuilding CXX object CMakeFiles/opencv_extract_object_positions.dir/src/opencv_extract_object_positions.cpp.o[0m
+[ 15%] Built target ament_cmake_python_copy_opencv_services
+[ 33%] Built target opencv_services__rosidl_typesupport_introspection_cpp
+[ 33%] Built target opencv_services__rosidl_typesupport_introspection_c
+[ 42%] Built target opencv_services__rosidl_typesupport_c
+[ 51%] Built target opencv_services__rosidl_typesupport_fastrtps_c
+[ 60%] Built target opencv_services__rosidl_typesupport_cpp
+[ 69%] Built target opencv_services__rosidl_typesupport_fastrtps_cpp
+[ 69%] Built target opencv_services
+[ 72%] Built target opencv_services__py
+[ 78%] Built target opencv_services__rosidl_generator_py
+[ 84%] Built target opencv_services__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target opencv_services__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target opencv_services__rosidl_typesupport_c__pyext
+running egg_info
+writing opencv_services.egg-info/PKG-INFO
+writing dependency_links to opencv_services.egg-info/dependency_links.txt
+writing top-level names to opencv_services.egg-info/top_level.txt
+reading manifest file 'opencv_services.egg-info/SOURCES.txt'
+writing manifest file 'opencv_services.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_opencv_services_egg

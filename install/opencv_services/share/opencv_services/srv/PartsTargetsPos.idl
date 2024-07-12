@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from opencv_services/srv/PartsTargetsPos.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module opencv_services {
+  module srv {
+    struct PartsTargetsPos_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct PartsTargetsPos_Response {
+      sensor_msgs::msg::RegionOfInterest roi;
+
+      sensor_msgs::msg::Image segmentation;
+    };
+  };
+};

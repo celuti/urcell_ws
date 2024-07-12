@@ -1,0 +1,8 @@
+{
+  "package_name": "yolov8_msgs",
+  "non_idl_tuples": [
+    "/home/user/ws/urcell_ws/src/yolov8_msgs:msg/InferenceResult.msg",
+    "/home/user/ws/urcell_ws/src/yolov8_msgs:msg/Yolov8Inference.msg",
+    "/home/user/ws/urcell_ws/src/yolov8_msgs:srv/YoloInference.srv"
+  ]
+}

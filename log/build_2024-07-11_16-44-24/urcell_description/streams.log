@@ -1,0 +1,39 @@
+[0.031s] Invoking command in '/home/user/ws/urcell_ws/build/urcell_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ws/urcell_ws/build/urcell_description -- -j8 -l8
+[0.205s] Invoked command in '/home/user/ws/urcell_ws/build/urcell_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ws/urcell_ws/build/urcell_description -- -j8 -l8
+[0.230s] Invoking command in '/home/user/ws/urcell_ws/build/urcell_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ws/urcell_ws/build/urcell_description
+[0.238s] -- Install configuration: ""
+[0.239s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/urdf
+[0.239s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/urdf/model.urdf.xacro
+[0.239s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/urdf/parts
+[0.239s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/urdf/parts/fixedparts
+[0.239s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/urdf/parts/fixedparts/fixedobjects.urdf.xacro
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/urdf/parts/customGripper
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/urdf/parts/customGripper/customGripper.urdf.xacro
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/gazebo
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/gazebo/urcell.gazebo.xacro
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/ros2_control
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/ros2_control/urcell.ros2_control.xacro
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/config
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/config/ros2_controllers.yaml
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/config/urcell_config.rviz
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/meshes
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/meshes/gripper2_gripper_base.dae
+[0.240s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/meshes/gripper2_finger.dae
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/launch
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/launch/display.launch.py
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/ament_index/resource_index/package_run_dependencies/urcell_description
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/ament_index/resource_index/parent_prefix_path/urcell_description
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/environment/ament_prefix_path.sh
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/environment/ament_prefix_path.dsv
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/environment/path.sh
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/environment/path.dsv
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/local_setup.bash
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/local_setup.sh
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/local_setup.zsh
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/local_setup.dsv
+[0.241s] -- Installing: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/package.dsv
+[0.241s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/ament_index/resource_index/packages/urcell_description
+[0.242s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/cmake/urcell_descriptionConfig.cmake
+[0.242s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/cmake/urcell_descriptionConfig-version.cmake
+[0.242s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_description/share/urcell_description/package.xml
+[0.248s] Invoked command in '/home/user/ws/urcell_ws/build/urcell_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ws/urcell_ws/build/urcell_description

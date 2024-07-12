@@ -1,0 +1,17 @@
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/lib/urcell_moveit_sim/moveit_robot_control
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/launch/mover.launch.py
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/ament_index/resource_index/package_run_dependencies/urcell_moveit_sim
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/ament_index/resource_index/parent_prefix_path/urcell_moveit_sim
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/ament_prefix_path.sh
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/ament_prefix_path.dsv
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/path.sh
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/path.dsv
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.bash
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.sh
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.zsh
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.dsv
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/package.dsv
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/ament_index/resource_index/packages/urcell_moveit_sim
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/cmake/urcell_moveit_simConfig.cmake
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/cmake/urcell_moveit_simConfig-version.cmake
+/home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/package.xml

@@ -1,0 +1,20 @@
+[0.013s] Invoking command in '/home/user/ws/urcell_ws/build/opencv_services': AMENT_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ws/urcell_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ws/urcell_ws/build/opencv_services -- -j8 -l8
+[0.064s] Invoked command in '/home/user/ws/urcell_ws/build/opencv_services' returned '0': AMENT_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ws/urcell_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ws/urcell_ws/build/opencv_services -- -j8 -l8
+[0.093s] Invoking command in '/home/user/ws/urcell_ws/build/opencv_services': AMENT_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ws/urcell_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ws/urcell_ws/build/opencv_services
+[0.103s] -- Install configuration: ""
+[0.103s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/ament_index/resource_index/package_run_dependencies/opencv_services
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/ament_index/resource_index/parent_prefix_path/opencv_services
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/environment/ament_prefix_path.sh
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/environment/ament_prefix_path.dsv
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/environment/path.sh
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/environment/path.dsv
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/local_setup.bash
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/local_setup.sh
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/local_setup.zsh
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/local_setup.dsv
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/package.dsv
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/ament_index/resource_index/packages/opencv_services
+[0.104s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/cmake/opencv_servicesConfig.cmake
+[0.105s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/cmake/opencv_servicesConfig-version.cmake
+[0.105s] -- Up-to-date: /home/user/ws/urcell_ws/install/opencv_services/share/opencv_services/package.xml
+[0.107s] Invoked command in '/home/user/ws/urcell_ws/build/opencv_services' returned '0': AMENT_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ws/urcell_ws/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ws/urcell_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ws/urcell_ws/build/opencv_services

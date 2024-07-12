@@ -1,0 +1,24 @@
+[0.188s] Invoking command in '/home/user/ws/urcell_ws/build/urcell_moveit_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ws/urcell_ws/build/urcell_moveit_sim -- -j8 -l8
+[0.247s] [100%] Built target moveit_robot_control
+[0.264s] Invoked command in '/home/user/ws/urcell_ws/build/urcell_moveit_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ws/urcell_ws/build/urcell_moveit_sim -- -j8 -l8
+[0.297s] Invoking command in '/home/user/ws/urcell_ws/build/urcell_moveit_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ws/urcell_ws/build/urcell_moveit_sim
+[0.306s] -- Install configuration: ""
+[0.306s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/lib/urcell_moveit_sim/moveit_robot_control
+[0.306s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/launch
+[0.306s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/launch/mover.launch.py
+[0.306s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/ament_index/resource_index/package_run_dependencies/urcell_moveit_sim
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/ament_index/resource_index/parent_prefix_path/urcell_moveit_sim
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/ament_prefix_path.sh
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/ament_prefix_path.dsv
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/path.sh
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/environment/path.dsv
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.bash
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.sh
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.zsh
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/local_setup.dsv
+[0.307s] -- Installing: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/package.dsv
+[0.307s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/ament_index/resource_index/packages/urcell_moveit_sim
+[0.308s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/cmake/urcell_moveit_simConfig.cmake
+[0.309s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/cmake/urcell_moveit_simConfig-version.cmake
+[0.309s] -- Up-to-date: /home/user/ws/urcell_ws/install/urcell_moveit_sim/share/urcell_moveit_sim/package.xml
+[0.310s] Invoked command in '/home/user/ws/urcell_ws/build/urcell_moveit_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --install /home/user/ws/urcell_ws/build/urcell_moveit_sim

@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/user/ws/urcell_ws/build/urcell_moveit_config': CMAKE_PREFIX_PATH=/home/user/ws/urcell_ws/install/urcell_description:/home/user/ws/urcell_ws/install/yolov8_msgs:/home/user/ws/urcell_ws/install/yolobot_recognition:/home/user/ws/urcell_ws/install/urcell_sim:/home/user/ws/urcell_ws/install/urcell_moveit_sim:/home/user/ws/urcell_ws/install/urcell_moveit_config:/home/user/ws/urcell_ws/install/moveit_visual_tools:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake /home/user/ws/urcell_ws/src/urcell_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/ws/urcell_ws/install/urcell_moveit_config
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Configuring done
+[0.555s] -- Generating done
+[0.556s] -- Build files have been written to: /home/user/ws/urcell_ws/build/urcell_moveit_config

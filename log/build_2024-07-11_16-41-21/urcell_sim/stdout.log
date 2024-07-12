@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/worlds
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/worlds/e_box2.dae
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/worlds/e_box2.stl
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/worlds/cokeworld.sdf
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/launch
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/launch/simular.launch.py
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/ament_index/resource_index/package_run_dependencies/urcell_sim
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/ament_index/resource_index/parent_prefix_path/urcell_sim
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/environment/ament_prefix_path.sh
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/environment/path.sh
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/environment/path.dsv
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/local_setup.bash
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/local_setup.sh
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/local_setup.zsh
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/local_setup.dsv
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/package.dsv
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/ament_index/resource_index/packages/urcell_sim
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/cmake/urcell_simConfig.cmake
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/cmake/urcell_simConfig-version.cmake
+-- Installing: /home/user/ws/urcell_ws/install/urcell_sim/share/urcell_sim/package.xml
