@@ -11,9 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(image_transport REQUIRED)
 find_package(tf2 REQUIRED)
-find_package(yolov8_msgs REQUIRED) # Add this line
 find_package(rosidl_default_generators REQUIRED)
-find_package(sensor_msgs REQUIRED)  # Ensure this is included if your service uses sensor_msgs
 
 # Add your executable
 add_executable(opencv_extract_object_positions src/opencv_extract_object_positions.cpp)
@@ -29,10 +27,6 @@ ament_target_dependencies(opencv_extract_object_positions
   cv_bridge
   image_transport
   tf2
-  yolov8_msgs
-  sensor_msgs
-  # Uncomment if OpenCV is found explicitly
-  # OpenCV
 )
 
 if(BUILD_TESTING)

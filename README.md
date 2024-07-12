@@ -69,3 +69,5 @@ and, in another terminal:
 Note: Before building everything with colcon build command, build first the yolo_msg package independently:
 
 `colcon build --packages-select yolov8_msgs --cmake-clean-cache`
+
+and source the workspace.
