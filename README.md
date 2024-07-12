@@ -1,10 +1,8 @@
-# urcell
-ros2 packages to control the robotic collabortative cell
-
-## ROS2 workspace "urcell_ws"
+# urcell_ws
 A series of packages aimed at simulating a collaborative work cell composed of a UR10e robot with a custom gripper and a Realsense 435i rgbd camera.
-
 The modular design of the description package allows to easily define the version of gazebo to simulate with. On its current form, it is designed to be used with Ignition Fortess. So, the steps to configure the simulation environment are the following:
+
+## Installation
 
 1-Install Ignition Fortress from
 [Ignition Fortress Installation Guide](https://gazebosim.org/docs/fortress/install_ubuntu) and verify that is correctly installed by executing a demo:
