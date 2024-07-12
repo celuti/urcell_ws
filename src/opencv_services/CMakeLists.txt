@@ -1,49 +1,51 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.5)
 project(opencv_services)
 
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
-
-# find dependencies
+# Find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(cv_bridge REQUIRED)
-find_package(image_transport REQUIRED)
-find_package(tf2 REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-# Add your executable
-add_executable(opencv_extract_object_positions src/opencv_extract_object_positions.cpp)
-# añado targets pero podría no ser necesario cuando se añada el servicio:
-install(TARGETS
-  opencv_extract_object_positions
-  DESTINATION lib/${PROJECT_NAME}
-)
+# Uncomment if you have library files
+# add_library(${PROJECT_NAME}_lib
+#   src/some_library_file.cpp
+# )
 
+# Uncomment if you have library files and need to link ROS dependencies
+# ament_target_dependencies(${PROJECT_NAME}_lib
+#   rclcpp
+#   geometry_msgs
+# )
+
+# Generate ROS interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
-  srv/PartsTargetsPos.srv
-  DEPENDENCIES sensor_msgs  # Include any dependencies your service file has
+  "srv/PartsTargetsPos.srv"
+  DEPENDENCIES geometry_msgs
 )
 
-# Specify dependencies of your executable
-ament_target_dependencies(opencv_extract_object_positions
-  rclcpp
-  cv_bridge
-  image_transport
-  tf2
-)
+# Uncomment if you have library files and need to link ROS interface dependencies
+# rosidl_target_interfaces(${PROJECT_NAME}_lib
+#   ${PROJECT_NAME} "rosidl_typesupport_cpp"
+# )
 
+# Testing setup
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
-  set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
-  set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+# # Install launch files, config files, etc.
+# install(DIRECTORY
+#   launch
+#   config
+#   DESTINATION share/${PROJECT_NAME}/
+# )
+
+# Uncomment if you have executables or libraries to install
+# install(TARGETS
+#   ${PROJECT_NAME}_lib
+#   DESTINATION lib/${PROJECT_NAME}
+# )
 
 ament_package()

@@ -1,3 +1,4 @@
+# Request part (if any additional fields are needed, they can be defined here)
 ---
-geometry_msgs/Point box_position
-geometry_msgs/Point target_position
+# Response part
+geometry_msgs/Point mypoint

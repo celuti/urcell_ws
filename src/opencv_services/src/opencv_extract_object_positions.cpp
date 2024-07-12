@@ -1,73 +1,43 @@
-#include <memory>
-#include <chrono>
-#include <thread>
+#include "rclcpp/rclcpp.hpp"
+#include "geometry_msgs/msg/point.hpp"
+#include "opencv_services/parts_targets_pos.hpp"
+#include <random>
 
-#include <rclcpp/rclcpp.hpp>
-#include <moveit/move_group_interface/move_group_interface.h>
-#include <moveit/planning_scene_interface/planning_scene_interface.h>
+class PositionServerNode : public rclcpp::Node {
+public:
+    PositionServerNode() : Node("position_server_node") {
+        // Advertise the service
+        service_ = this->create_service<opencv_services::srv::PartsTargetsPos>(
+            "parts_targets_pos", std::bind(&PositionServerNode::handle_service, this, std::placeholders::_1, std::placeholders::_2));
+        RCLCPP_INFO(this->get_logger(), "Service 'parts_targets_pos' is ready.");
+    }
 
-int main(int argc, char** argv)
-{
-  rclcpp::init(argc, argv);
-  auto node = rclcpp::Node::make_shared("moveit_robot_control");
+private:
+    void handle_service(const std::shared_ptr<opencv_services::srv::PartsTargetsPos::Request> request,
+                        std::shared_ptr<opencv_services::srv::PartsTargetsPos::Response> response) {
+        // Generate a random point
+        geometry_msgs::msg::Point random_point;
+        random_point.x = get_random();
+        random_point.y = get_random();
+        random_point.z = get_random();
 
-  auto arm_group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node, "arm");
-  auto gripper_group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node, "gripper");
+        // Set the random point as the response
+        response->target_pos = random_point;
+        RCLCPP_INFO(this->get_logger(), "Sending random target position: x=%f, y=%f, z=%f", random_point.x, random_point.y, random_point.z);
+    }
 
-  moveit::planning_interface::MoveGroupInterface::Plan my_plan;
+    double get_random() {
+        std::random_device rd;
+        // Assuming the rest of the get_random function is implemented below
+    }
 
-  // 1- move the arm to "inicio"
-  arm_group->setNamedTarget("inicio");
-  arm_group->plan(my_plan);
-  arm_group->execute(my_plan);
+    rclcpp::Service<opencv_services::srv::PartsTargetsPos>::SharedPtr service_;
+};
 
-  // 2- move the gripper to "open"
-  gripper_group->setNamedTarget("open");
-  gripper_group->plan(my_plan);
-  gripper_group->execute(my_plan);
-
-  // 3- move the arm to "agarre"
-  arm_group->setNamedTarget("agarre");
-  arm_group->plan(my_plan);
-  arm_group->execute(my_plan);
-
-  // 4- wait until the arm reaches the position, and wait 1 more seconds
-  while (!arm_group->move()) {}
-  std::this_thread::sleep_for(std::chrono::seconds(1));
-
-  // 5- move the gripper to "picking"
-  gripper_group->setNamedTarget("picking");
-  gripper_group->plan(my_plan);
-  gripper_group->execute(my_plan);
-
-  // 6- wait 1 seconds
-  std::this_thread::sleep_for(std::chrono::seconds(1));
-
-  // 7- move the arm to "dejar"
-  arm_group->setNamedTarget("dejar");
-  arm_group->plan(my_plan);
-  arm_group->execute(my_plan);
-
-  // 8- wait 1 seconds
-  std::this_thread::sleep_for(std::chrono::seconds(1));
-
-  // 9- move the gripper to "open"
-  gripper_group->setNamedTarget("open");
-  gripper_group->plan(my_plan);
-  gripper_group->execute(my_plan);
-
-  // 10- wait 1 seconds
-  std::this_thread::sleep_for(std::chrono::seconds(1));
-
-  // 11- move the robot to "inicio"
-  arm_group->setNamedTarget("inicio");
-  arm_group->plan(my_plan);
-  arm_group->execute(my_plan);
-
-  // 12- wait 1 seconds
-  std::this_thread::sleep_for(std::chrono::seconds(1));
-
-  // 13 Finish
-  rclcpp::shutdown();
-  return 0;
+int main(int argc, char **argv) {
+    rclcpp::init(argc, argv);
+    auto node = std::make_shared<PositionServerNode>();
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+    return 0;
 }
