@@ -15,6 +15,11 @@ find_package(rosidl_default_generators REQUIRED)
 
 # Add your executable
 add_executable(opencv_extract_object_positions src/opencv_extract_object_positions.cpp)
+# añado targets pero podría no ser necesario cuando se añada el servicio:
+install(TARGETS
+  opencv_extract_object_positions
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   srv/PartsTargetsPos.srv

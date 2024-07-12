@@ -49,14 +49,6 @@ in another terminal:
 
 ```sudo apt install ros-humble-graph-msgs && sudo apt install ros-humble-rviz-visual-tools```
 
-Now, everything is ready to perform a simulation with a predefined path. After building and sourcing, execute:
-
-`ros2 launch urcell_moveit_sim mover.launch.py`
-
-and, in another terminal:
-
-`ros2 run urcell_moveit_sim moveit_robot_control`
-
 7-Install ur-description package from binary:
 
 `sudo apt install ros-humble-ur-description`
@@ -70,4 +62,10 @@ Note: Before building everything with colcon build command, build first the yolo
 
 `colcon build --packages-select yolov8_msgs --cmake-clean-cache`
 
-and source the workspace.
+and source the workspace. Now, everything is ready to perform a simulation with a predefined path. After building and sourcing, execute:
+
+`ros2 launch urcell_moveit_sim mover.launch.py`
+
+and, in another terminal:
+
+`ros2 run urcell_moveit_sim moveit_robot_control`
