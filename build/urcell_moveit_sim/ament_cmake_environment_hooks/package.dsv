@@ -1,4 +1,0 @@
-source;share/urcell_moveit_sim/local_setup.bash
-source;share/urcell_moveit_sim/local_setup.dsv
-source;share/urcell_moveit_sim/local_setup.sh
-source;share/urcell_moveit_sim/local_setup.zsh

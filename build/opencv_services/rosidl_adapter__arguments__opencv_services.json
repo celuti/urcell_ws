@@ -1,6 +1,0 @@
-{
-  "package_name": "opencv_services",
-  "non_idl_tuples": [
-    "/home/user/ws/urcell_ws/src/opencv_services:srv/PartsTargetsPos.srv"
-  ]
-}

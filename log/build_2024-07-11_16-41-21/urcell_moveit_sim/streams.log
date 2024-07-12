@@ -1,4 +1,0 @@
-[0.179s] Invoking command in '/home/user/ws/urcell_ws/build/urcell_moveit_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws/urcell_ws/install/image_saver_pkg:/opt/ros/humble /usr/bin/cmake --build /home/user/ws/urcell_ws/build/urcell_moveit_sim -- -j8 -l8
-[0.223s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_robot_control.dir/src/moveit_robot_control.cpp.o[0m
-[5.686s] [100%] [32m[1mLinking CXX executable moveit_robot_control[0m
-[5.956s] [100%] Built target moveit_robot_control

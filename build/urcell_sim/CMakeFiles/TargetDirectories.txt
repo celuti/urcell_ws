@@ -1,9 +1,0 @@
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/uninstall.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/urcell_sim_uninstall.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/test.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/edit_cache.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/rebuild_cache.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/list_install_components.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/install.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/install/local.dir
-/home/user/ws/urcell_ws/build/urcell_sim/CMakeFiles/install/strip.dir

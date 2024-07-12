@@ -1,3 +1,0 @@
-
-sensor_msgs/RegionOfInterest roi
-sensor_msgs/Image segmentation

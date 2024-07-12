@@ -1,8 +1,0 @@
-setup.py
-opencv_services/__init__.py
-opencv_services.egg-info/PKG-INFO
-opencv_services.egg-info/SOURCES.txt
-opencv_services.egg-info/dependency_links.txt
-opencv_services.egg-info/top_level.txt
-opencv_services/srv/__init__.py
-opencv_services/srv/_parts_targets_pos.py

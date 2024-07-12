@@ -1,9 +1,0 @@
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/uninstall.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/yolobot_recognition_uninstall.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/test.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/edit_cache.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/rebuild_cache.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/list_install_components.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/install.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/install/local.dir
-/home/user/ws/urcell_ws/build/yolobot_recognition/CMakeFiles/install/strip.dir
